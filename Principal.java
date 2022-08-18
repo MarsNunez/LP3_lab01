@@ -8,15 +8,15 @@ public class Principal {
 		Scanner sc = new Scanner(System.in);
 		do {
 			vida ++;
-			System.out.println("Vida: " + vida + "\t ¿Cual es tu numero secreto? ");
+			System.out.println("Life(s): " + vida + "\t ¿What's your magic number mate? ");
 			rp = sc.nextInt();
 			if (rp == 1234)
 				fl = true;
 		} while (vida < 3 && !fl );
 		if (fl == true) {
-			System.out.println("Adivinaste!!!");
+			System.out.println("You guess it!!!");
 		} else {
-			System.out.println("Ups... Perdiste.");
+			System.out.println("Ups... You lose.");
 		}
 		sc.close();
 	}
