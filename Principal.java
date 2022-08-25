@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Principal {
 	public static void main(String[] args) {
-		int vida, rp;
+		int vida,rp;
 		boolean fl = false;
 		vida = 0;
 		Scanner sc = new Scanner(System.in);
